@@ -85,7 +85,7 @@
                                                 </td>
                                                 <td><?php echo e($user->created_at); ?></td>
                                                 <td>
-                                                    <div class="d-flex justify-content-center">
+                                                    <div class="d-flex justify-content-left">
                                                         <a href='<?php echo e(route('users.edit', $user->id)); ?>'
                                                             class="btn btn-sm btn-info btn-icon">
                                                             <i class="fas fa-edit"></i>
